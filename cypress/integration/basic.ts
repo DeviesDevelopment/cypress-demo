@@ -9,6 +9,7 @@ describe("Basic tests", () => {
         cy.get("button").contains("x").click();
         cy.get("button").contains("3").click();
         cy.get("button").contains("=").click();
-        cy.get(".component-display").should("have.text", "28");
+        cy.get(".component-display").should("have.text", "27");
+
     });
 });
